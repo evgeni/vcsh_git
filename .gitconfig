@@ -1,0 +1,8 @@
+[color]
+	ui = auto
+[sendemail]
+	smtpencryption = tls
+	smtpserver = mail.die-welt.net
+	smtpuser = sargentd@die-welt.net
+	from = Evgeni Golov <evgeni+git@golov.de>
+	suppresscc = all
