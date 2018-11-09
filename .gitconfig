@@ -8,3 +8,5 @@
 [user]
 	name = Evgeni Golov
 	signingkey = 333961E8
+[help]
+	autocorrect = 5
