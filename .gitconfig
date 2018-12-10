@@ -10,3 +10,5 @@
 	signingkey = 333961E8
 [help]
 	autocorrect = 5
+[gpg]
+	program = /usr/bin/gpg2
