@@ -1,5 +1,7 @@
 [color]
 	ui = auto
+[core]
+	pager = delta
 [sendemail]
 	from = Evgeni Golov <evgeni+git@golov.de>
 	suppresscc = all
@@ -12,3 +14,20 @@
 	autocorrect = 5
 [gpg]
 	program = /usr/bin/gpg2
+[checkout]
+	defaultRemote=origin
+[annex "security"]
+	allowed-http-addresses = all
+[annex]
+	gitaddtoannex = false
+[diff]
+	noprefix = true
+	colorMoved = default
+[init]
+	defaultBranch = devel
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	features = side-by-side line-numbers decorations
+[pull]
+	ff = only
