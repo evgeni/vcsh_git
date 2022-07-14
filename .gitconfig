@@ -32,3 +32,5 @@
 	features = side-by-side line-numbers decorations
 [pull]
 	ff = only
+[push]
+	autoSetupRemote = true
